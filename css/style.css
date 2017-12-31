@@ -26,6 +26,11 @@ a,a:hover {
 	color:#92DD03 ;
 	text-decoration: none;
 }
+
+#nostyle {
+	color : black;
+}
+
 img {max-width: 100%;}
 /* --- Menu --- */
 .isFixed {
