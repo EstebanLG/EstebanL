@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Esteban L Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
+  <!-- =======================================================
+    Theme Name: MyResume
+    Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div class="wrapper" id="wrappersvt">
+    <header>
+      <div class="banner row" id="banner">
+        <div class="parallax text-center">
+          <div class="parallax-pattern-overlay">
+            <div class="container text-center" style="height:600px;padding-top:170px;">
+            </div>
+            <div class="container">
+              <a class="retour" href="index.html">Retour à l'accueil</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </header>
+    <article>
+SVTludik is a website designed to help high schoolers in their learning process. It is specialized in biology.
+<br>
+<br>
+<img class="alignnone size-full wp-image-237" src="https://estebanlblog.files.wordpress.com/2017/05/svtludik032.png" alt="svtludik03" />
+<br>
+<br>
+This is the first professional related project I have ever worked on.
+Therefore, I learnt a considerable amount of new skills while sharpening those I already had.
+<br>
+We were a 5 members team and the customer was a Parisian biology teacher willing to update the website she used as a 
+complement to traditional courses.
+<br>
+I was in charge of verifying our production met the customer's main expectations and that all of her
+new requests were taken into account by the rest of the team as I was the only member in direct relation with her. 
+The client’s primary concern was to make it fun and very user-friendly. Thus, the website features games, social characteristics, 
+an avatar creation tool and a simplified editing interface.
+<br>
+<br>
+<img class="  wp-image-263 aligncenter" src="https://estebanlblog.files.wordpress.com/2017/05/sans-titre-11-e1511279546656.png" alt="Sans titre-1" width="602" height="836" />
+<br>
+<br>
+Regarding the actual development, the website was entirely created through agile software development tools. 
+It was a first time for the whole team so adapting was quite tricky in the first place but our diligence enabled us to 
+be productive only a short time after the project started.
+<br>
+With this project, my main goal was to learn how to do things I had never done before. 
+For instance, Managing a team was something I have always wanted to do and it turned out very well in the end. 
+During the development of the project, my first responsibility was to keep the team's efforts on track with the customer needs$
+in order to avoid time waste and most of all deliver a good product.
+<br>
+I gained a lot of skills by managing the team and participating in the making of the website. 
+Given that we had to work as a team while being scattered, the development required a lot of autonomy, communication, coordination 
+and conscientiousness from us five. Communication really was a weakness beforehand but I feel like being involved with a lot of 
+responsibilities on this project greatly improved my communication skills.
+<br>
+<br>
+Link : <a href="https://svtludik.000webhostapp.com/">SVTLudik</a>
+</article>
+  
+
+    <!--footer-->
+    <section class="footer" id="footer">
+      <p class="text-center">
+        <a href="index.html" class="gototop"><i class="fa fa-angle-double-left fa-2x"></i></a>
+      </p>
+        <p class = "credit">Esteban Legrand</p>
+      </div>
+    </section>
+
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/modernizr.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/menustick.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/easing.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/masonry.js"></script>
+  <script src="js/imgloaded.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/colorfinder.js"></script>
+  <script src="js/gridscroll.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/common.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  <script type="text/javascript">
+    jQuery(function($) {
+      $(document).ready(function() {
+        //enabling stickUp on the '.navbar-wrapper' class
+        $('.navbar-wrapper').stickUp({
+          parts: {
+            0: 'banner',
+            1: 'aboutus',
+            2: 'specialties',
+            3: 'gallery',
+            4: 'feedback',
+            5: 'contact'
+          },
+          itemClass: 'menuItem',
+          itemHover: 'active',
+          topMargin: 'auto'
+        });
+      });
+
+      //Google Map
+      var get_latitude = $('#google-map').data('latitude');
+      var get_longitude = $('#google-map').data('longitude');
+
+      function initialize_google_map() {
+        var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
+        var mapOptions = {
+          zoom: 14,
+          scrollwheel: false,
+          center: myLatlng
+        };
+        var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize_google_map);
+    });
+  </script>
+  <script src="contactform/contactform.js"></script>
+
+
+</body>
+
+</html>
