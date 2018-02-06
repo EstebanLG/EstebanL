@@ -190,6 +190,10 @@ article {
 	background-image: url(../img/2048banner.png);
 		background-position: center;
 }
+#wrapperTGJOT {
+	background-image: url(../img/tgjotbg.png);
+	background-position: center;
+}
 .parallax-pattern-overlay {
 	background-image:url(../img/pattern.png);
 	background-repeat: repeat;
